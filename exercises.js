@@ -223,7 +223,9 @@ addThenSubtract(bango3,bango2,bango1);
  * Console.log your result.
 */ 
 
-function MultiplyThenDivide
+function MultiplyThenDivide(num1,num2,num3) {
+	return num1 * num2 / num3;
+}
 
 /*
  * #12
@@ -284,9 +286,10 @@ console.log(eatFood("Marvin","Pilar","Taco"));
  * Example output: "BELIEVE YOU CAN AND YOU'RE HALFWAY THERE."
 */
  function allCaps(str) {
- 		return str.uppercase();
+ 		return str.to UpperCase();
  }
 allCaps("turn this sentence into all caps!")
+console.log(allCaps)
 /*
  * #16
  * Function oneCap
@@ -295,7 +298,9 @@ allCaps("turn this sentence into all caps!")
  * Console.log your result.
 */
 
-
+function oneCap(str){
+	console.log str;
+}
 
 /*
  * #17
@@ -316,6 +321,9 @@ allCaps("turn this sentence into all caps!")
  * Create a function named throwParty. This function will check the value stored in the `canDrink` variable in the previous exercise. If the value is true, it will return the message "Cheee Hoo! We going to da party!" If false, then it will return the message "Meh, see you at Starbucks." Store the return value to a variable named `canParty`. Console.log your result.
  */
 
+function throwParty(canDrink){
+	return  canParty 
+}
 
 
 
